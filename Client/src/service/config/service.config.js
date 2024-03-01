@@ -2,7 +2,7 @@ import axios from "axios";
 import { handlerService } from "./handler/handler.config";
 
 const getAPIRoot = () => {
-  return "http://localhost:5000";
+  return "https://fullstackjsproject.onrender.com";
 };
 
 // If window is not defined (server side), return a default value or handle accordingly
